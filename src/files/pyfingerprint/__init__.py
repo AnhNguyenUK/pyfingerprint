@@ -10,4 +10,4 @@ All rights reserved.
 
 __version__ = '1.5'
 
-from pyfingerprint import PyFingerprint
+from .pyfingerprint import PyFingerprint
