@@ -12,6 +12,6 @@ setup(
     author_email='bastian.raschke@posteo.de',
     url='https://sicherheitskritisch.de',
     license='D-FSL',
-    packages=['pyfingerprint', 'pyfingerprint.egg-info'],
+    packages=['pyfingerprint'],
     package_dir={'': 'src'},
 )
