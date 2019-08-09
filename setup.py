@@ -14,4 +14,5 @@ setup(
     license='D-FSL',
     packages=['pyfingerprint'],
     package_dir={'': 'src'},
+    zip_safe=False,
 )
