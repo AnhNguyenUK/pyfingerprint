@@ -1393,3 +1393,5 @@ class PyFingerprint(object):
                 completePayload.append(receivedPacketPayload[i])
 
         return completePayload
+    def write(self, data):
+        self.__serial.write(data)
